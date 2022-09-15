@@ -38,7 +38,7 @@ $address = $_POST['address'];
             "description": "Transaction for <?php echo $plan; ?>",
             "image": "https://example.com/your_logo",
             //"order_id": " //echo(rand(10,100));", //This is a sample Order ID. Pass the `id` obtained in the response of Step 1
-            "callback_url": "https://eneqd3r9zrjok.x.pipedream.net/",
+            "callback_url": "thankyou.html",
             "prefill": {
                 "name": "<?php echo $name; ?>",
                 "email": "<?php echo $email; ?>",
