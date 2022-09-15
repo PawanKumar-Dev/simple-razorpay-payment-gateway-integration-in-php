@@ -31,10 +31,10 @@ $address = $_POST['address'];
     <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
     <script>
         var options = {
-            "key": "rzp_test_EtjJczqcXrQxjg", // Enter the Key ID generated from the Dashboard
+            "key": "Your API Key Here", // Enter the Key ID generated from the Dashboard
             "amount": "<?php echo $total * 100; ?>", // Amount is in currency subunits. Default currency is INR. Hence, 50000 refers to 50000 paise
             "currency": "INR",
-            "name": "Excel Technologies",
+            "name": "Your Company Name",
             "description": "Transaction for <?php echo $plan; ?>",
             "image": "https://example.com/your_logo",
             //"order_id": " //echo(rand(10,100));", //This is a sample Order ID. Pass the `id` obtained in the response of Step 1
